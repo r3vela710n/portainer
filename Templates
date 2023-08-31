@@ -14,7 +14,7 @@
 			"ports": [
 				"80:80/tcp",
 				"81:81/tcp",
-				"443:443tcp"
+				"443:443/tcp"
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Nginx Proxy Manager",
