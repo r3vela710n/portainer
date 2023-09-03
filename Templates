@@ -28,6 +28,29 @@
 		},
 		{
 			"categories": [
+				"Website",
+				"Database"
+			],
+			"description": "Wordpress",
+			"image": "wordpress:latest",
+			"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/512px-WordPress_blue_logo.svg.png?20170312030453",
+			"name": "wordpressr",
+			"platform": "linux",
+			"ports": [
+				"8977:80/tcp"
+			],
+			"restart_policy": "always",
+			"title": "Wordpress",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Files/AppData/Config/Wordpress",
+					"container": "/config"
+				}
+			]
+		},
+		{
+			"categories": [
 				"Downloaders"
 			],
 			"description": "NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players",
