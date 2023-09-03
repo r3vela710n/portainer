@@ -28,8 +28,7 @@
 		},
 		{
 			"categories": [
-				"Website",
-				"Database"
+				"Website"
 			],
 			"description": "Wordpress",
 			"image": "wordpress:latest",
